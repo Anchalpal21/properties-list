@@ -1,0 +1,145 @@
+body{
+    background-color: aliceblue;
+}
+
+
+.header{
+    display:flex;
+    background-image: url(download_4.1.jpg);
+    background-image: cover;
+    background-image: no-repeat;
+    background-position: center;
+
+    
+}
+
+
+h1{
+    color:darkslategrey;
+    font-size:30px;
+}
+.home-price{
+    font-size:25px;
+    margin-bottom:-1px;
+    margin-top: 7px;
+    text-align: right;
+
+
+
+}
+.options-menu{
+    align-items:center;
+    padding-left: 20px;
+    padding-top: 20px;
+    
+}   
+
+#search-box{
+    border:1px solid black;
+    font-size:16px;
+    width:600px;
+    height: 4vh;;
+    border-radius:3px;
+}
+
+.filter-box{
+    margin: 1px;
+    margin-left: 1200px;
+    
+}
+    
+.select-one{
+    border:1px solid black;
+    height: 40px;
+    width:300px;
+}
+.property-listing {
+    max-width: 15000px;
+    margin: 2 auto;
+    height:80vh;
+    
+}
+
+.property {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+}
+
+.property img {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.property-info {
+    padding: 20px;
+    flex: 1;
+}
+
+.property-info h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.property-info p {
+    margin: 5px 0;
+    color: #777;
+}
+
+.property-details {
+    display: flex;
+    gap: 15px;
+    margin: 10px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.property-actions {
+    margin-top: 20px;
+}
+
+.property-actions button {
+    padding: 8px 12px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+}
+
+.property-actions button:nth-child(1) {
+    background-color: #4caf50;
+}
+
+.property-actions button:nth-child(2) {
+    background-color: #f44336;
+}
+
+.property-actions button:nth-child(3) {
+    background-color: #2196f3;
+}
+
+.property-actions .view-property {
+    background-color: #4caf50;
+    font-weight: bold;
+}
+
+.property-price {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: #0078d4;
+}
+  
+  
